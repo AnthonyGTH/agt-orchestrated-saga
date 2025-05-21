@@ -20,5 +20,5 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Run Maven tests
-        run: mvn clean verify
+      - name: Run mvn install
+        run: mvn install
