@@ -13,7 +13,7 @@
 
     <groupId>com.agt</groupId>
     <artifactId>agt-orchestrated-saga</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>agt-orchestrated-saga</name>
     <description>Utility library for implementing orchestrated sagas with annotations</description>
 

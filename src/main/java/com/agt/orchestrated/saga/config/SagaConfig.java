@@ -1,4 +1,4 @@
-package com.reece.platform.agt.orchestrated.saga.config;
+package com.agt.orchestrated.saga.config;
 
 import java.lang.reflect.Method;
 import java.util.function.Function;
@@ -9,9 +9,9 @@ import org.aspectj.lang.annotation.Aspect;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Component;
 
-import com.reece.platform.agt.orchestrated.saga.saga.SagaCompensation;
-import com.reece.platform.agt.orchestrated.saga.saga.SagaContext;
-import com.reece.platform.agt.orchestrated.saga.saga.SagaTransaction;
+import com.agt.orchestrated.saga.saga.SagaCompensation;
+import com.agt.orchestrated.saga.saga.SagaContext;
+import com.agt.orchestrated.saga.saga.SagaTransaction;
 
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Mono;
